@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Bengao - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px;
+            overflow: hidden;
+        }
+
+        .logo {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .nav-menu li {
+            margin-left: 20px;
+        }
+
+        .nav-menu li:first-child {
+            margin-left: 0;
+        }
+
+        .nav-menu li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav-toggle {
+            display: none;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 768px) {
+            .nav-menu {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: #333;
+                width: 100%;
+                padding: 10px 0;
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .nav-menu li {
+                margin: 10px;
+            }
+
+            .nav-toggle {
+                display: block;
+            }
+        }
+
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .about-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .about-description {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <h1 class="logo">Justin Bengao</h1>
+                <div class="nav-toggle">&#9776;</div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Navigating the Academic Landscape at the Esteemed University of the Cordilleras, Focused on Cultivating Expertise and Innovation in the Bachelor of Science in Information Technology Program, as I Embrace the Challenges and Opportunities of the Digital Era to Shape a Future Defined by Technological Advancement and Creativity</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <img src="https://uc-bcf.instructure.com/files?preview=1466545" alt="Profile Picture" class="about-image">
+            <h2>About Me</h2>
+            <p class="about-description">Meet Justin Bengao, a dedicated individual on a quest for knowledge and innovation at the illustrious University of the Cordilleras. With an insatiable curiosity and a passion for technology, Justin has embarked on a journey towards mastery in the Bachelor of Science in Information Technology program.
+
+From a young age, Justin was captivated by the wonders of the digital world. Growing up surrounded by technology, he developed a deep-seated fascination for computers, coding, and all things IT-related. This fascination blossomed into a burning ambition to not only understand the intricacies of technology but also to push the boundaries of what is possible.
+
+Driven by a relentless desire to excel, Justin has immersed himself in every aspect of his chosen field. Whether it's delving into complex algorithms, mastering programming languages, or exploring the latest advancements in cybersecurity, Justin approaches each challenge with tenacity and enthusiasm. His thirst for knowledge knows no bounds, and he is always eager to expand his skill set and stay at the forefront of technological innovation..</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Flexibility = Justin is adaptable and flexible in his approach to problem-solving and project management. He thrives in dynamic environments where priorities may shift and new challenges arise, demonstrating resilience and resourcefulness in adapting to changing circumstances and requirements.</li>
+                <li>Communication = Justin possesses strong communication skills, both verbal and written, allowing him to articulate complex technical concepts in a clear and concise manner. Whether collaborating with team members, presenting ideas to stakeholders, or documenting project requirements, Justin effectively conveys information to ensure mutual understanding and alignment.</li>
+                <li>Collaboration = Justin is a collaborative team player who values teamwork and cooperation. He actively contributes to team discussions, listens to diverse perspectives, and fosters a supportive and inclusive work environment where everyone feels valued and empowered to contribute their ideas and expertise.</li>
+		<li>Leadership = Justin demonstrates strong leadership potential, exhibiting qualities such as initiative, accountability, and mentorship. He leads by example, inspiring and motivating others to achieve their full potential, while also fostering a collaborative and supportive team culture that encourages growth and innovation.</li>
+		<li>Time Management = Justin excels at managing his time effectively and prioritizing tasks to meet deadlines and project milestones. He utilizes organizational tools and techniques to streamline workflows, optimize productivity, and ensure timely delivery of high-quality results.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Parking Reservation Application</p>
+	    <p>In the bustling streets of Baguio City, where traffic congestion and parking scarcity are common woes, a groundbreaking solution has emerged to alleviate these urban mobility challenges: the parking reservation application. This innovative mobile application represents a paradigm shift in how residents and visitors navigate the city's streets, offering real-time parking availability, reservation options, and user-friendly features to enhance the overall parking experience.
+
+At its core, the parking reservation application aims to address the fundamental issue of finding available parking spaces in urban areas. Through meticulous observation and interviews, it became evident that both tourists and locals face difficulties in locating vacant parking spots across Baguio City. Navigating the streets to find parking often leads to traffic congestion and confusion, exacerbated by the lack of clear signage and information. This not only affects the efficiency of local residents but also detracts from the overall experience of visitors exploring the city's attractions.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Phone: 09993824264</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Justin Bengao</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+        
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
